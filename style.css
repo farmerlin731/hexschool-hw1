@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*--css by farmer 0609--*/
+
+.region-1, .region-3 {
+    width: 62.5%;
+    margin: auto;
+}
+
+.name {
+    font: normal normal normal 80px/94px Roboto;
+    margin-top: 47px;
+    padding-top: 18px;
+    border-bottom: 2px black solid;
+}
+
+.photo {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.content-block {
+    margin-bottom: 72px;
+}
+
+.content-block .title {
+    text-align: left;
+    font: normal normal normal 32px/43px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.title .adv-title {
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal medium 100px/28px Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+}
+
+.list .item {
+    text-align: left;
+    font: normal normal normal 24px/36px Noto Sans;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 24px;
+}
+
+.region-2 {
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    margin-bottom: 72px;
+}
+
+.region-2 .container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.region-2 h2 {
+    font-size: 32px;
+    line-height: 45px;
+    color: white;
+}
+
+.region-2 span {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.region-2 .skill-list {
+    border-left: 1px white solid;
+    text-align: left;
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.region-2 li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.region-3 .ultra-box {
+    border-left: 1px #96A9C4 solid;
+    margin-left: 24px;
+    padding-left: 24px;
+}
+
+.region-3 .special {
+    font: normal normal normal 20px/30px Noto Sans;
+}
+
+.region-3 .tmp2 {
+    font: normal normal normal 20px/30px Noto Sans;
+}
+
+.region-4 {
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.region-4 .container {
+    width: 67.5%;
+    margin: auto;
+    text-align: center;
+}
+
+.region-4 h2 {
+    font-size: 32px;
+    line-height: 45px;
+    color: white;
+}
+
+.region-4 span {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.region-4 li {
+    font: normal normal 300 24px/36px Roboto;
+    margin-top: 16px;
+    color: white;
+}
+
+.region-4 .logo {
+    margin-left: 24px;
+}
